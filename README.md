@@ -103,12 +103,14 @@ Some more examples:
 
 
 ### What you might not know
-
+```
 <figure>
     <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
     <figcaption>Use semantic tag for text on the image</figcaption>
 </figure>
+```
 
+```
 <address>
   James Rockford<br/>
   2354 Pacific Coast Highway<br/>
@@ -117,30 +119,33 @@ Some more examples:
   +311-555-2368<br/>
   Email: <a href="mailto:j.rockford@example.com">j.rockford@example.com</a><br/>
 </address>
-
+```
+```
 <picture>
   <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
   <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
   <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
 </picture>
-
+```
 Cite
+```
 <img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
 <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
-
+```
 Blockquote
+```
 <blockquote cite="http://www.worldwildlife.org/who/index.html">
 For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
 </blockquote>
-
+```
 
 
 ### Few notes on other elements
 
 The button tag is a 'form' element. The default option for the button is to send a request. Therefore, if you want to use it outside the 'form' element, you must specify the type of the button, to button. This stops the website sending a request to the databse.
-
+```
 <button type="button"></button>
-
+```
 
 When styling the base of the components, make sure that under any circumstances, you don't touch any global tags, such as the headings, the unorderes/orderes list and so on. That's because if you have a CMS, or if you need the default tag properties, you will need to re-assing/delete whatever there is.
 
