@@ -1,0 +1,43 @@
+// ==========================================================================
+// #Functions
+// ==========================================================================
+//
+//  Table of content
+//
+//  - Colors
+//  - Font Sizes
+//
+//
+
+
+
+// #Functions: Colors
+// ==========================================================================
+
+//
+// Brand Colors
+//
+
+
+//
+// Primary Colors
+//
+
+
+
+//
+// Font Weight
+//
+
+
+
+// #Mixins: Font Weight
+// ==========================================================================
+
+@function weight($key: 'normal') {
+	@return map-get($font-weight, $key);
+}
+
+@mixin font-weight($key) {
+	font-weight: weight($key);
+}

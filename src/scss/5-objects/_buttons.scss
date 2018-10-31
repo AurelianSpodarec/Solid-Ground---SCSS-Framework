@@ -1,0 +1,33 @@
+// ==========================================================================
+// #Buttons
+// ==========================================================================
+
+.btn {
+    display: inline-block;
+
+    &--default {
+
+    }
+
+    &--primary {
+
+        &.btn--outline {
+
+        }
+    }
+
+    &--secondary {
+
+    }
+
+    &--block {
+        display: block;
+        width: 100%;
+    }
+
+    &--outline {
+        color: inherit;
+        background-color: transparent;
+    }
+
+}

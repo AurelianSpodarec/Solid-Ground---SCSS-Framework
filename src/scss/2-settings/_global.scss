@@ -1,0 +1,22 @@
+// ==========================================================================
+// # Global
+// ==========================================================================
+
+
+
+// #Typography: Global
+//===========================================================================
+
+$font-size-paragraph: 8pt;
+$font-line-height: 1.5;
+
+
+// #Settings: Base Settings
+// ==========================================================================
+
+$base-font-family   : $font-primary;
+$base-font-weight   : @include font-weight(normal);
+$base-font-size     : 16px;
+$base-line-height   : 24px
+$base-background    : #525659;
+$base-color         : #adadad;//#898B8B;

@@ -1,0 +1,11 @@
+{
+  "name": "Solid Ground",
+  "version": "0.0.1",
+  "description": "Solid Ground is a front-end framework that promotes consistency, agility, collaboration and speed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aurelian Spodarec",
+  "license": "ISC"
+}
