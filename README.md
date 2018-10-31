@@ -4,7 +4,7 @@
 
 A way to manage a robust project with a pragmatic approach, combining methodologies and my experience (not limited), thata promotes consistency, maintanability, scalability and teamwork.
 
-These days you have soo many methodologies and way of doing things. It's just overwhelming. You have BEM, SMACSS, OOCSS, ACSS, ITCC.. WTF?!
+These days you have soo many methodologies and way of doing things. It's just overwhelming. You have BEM, SMACSS, OOCSS, ACSS, ITCC.. WTF?! I like to take big chunks from them and combine.
 
 The key is to understand the concepts behind how to utilize each concept to it's potential.
 
@@ -17,10 +17,13 @@ Note that each project is a unique, and therefroe it requires some sort of custo
 
 ## What's included
 
-The catalogue has the following SCSS directories and files, logically grouping common assets. You'll see something like this:
+The Solid Ground has the following SCSS directories and files, logically grouping common assets. You'll see something like this:
 
-catalogue/
-└── css/
+```
+src/
+├── assets/
+├── js/
+└── scss/
     ├── 0-lib/
     |
     ├── 1-helpers/
@@ -38,6 +41,7 @@ catalogue/
     ├── 7-pages/
     |
     └── styles.scss
+```
 
 A quick walkthrough the folders
 
@@ -70,15 +74,15 @@ If you have a JavaScript specific style, you use a data-set attribute.
 
 When you write it this way, you're telling the developer that this component has something to do with JavaScript, and it's a nice way to divide the styling and the JavaScript in it's own calsses. As class is meant for styling, not for JavaScript hooking.
 
-That is, 'data-js' and you're not limited to only that. Make sure they are descriptive. 
+That is, `data-js` and you're not limited to only that. Make sure they are descriptive. 
 
 Some more examples:
 
-'data-trigger',
-'data-post-id',
-'data-key',
-'data-user',
-'data-date-of-birth'
+`data-trigger`,
+`data-post-id`,
+`data-key`,
+`data-user`,
+`data-date-of-birth`
 
 
 
@@ -167,10 +171,7 @@ If you feel your project is always on dely or it's messy, this is a place to sta
 
 
 
-
-
-
-If you find your self always doing QA.
+## If you find your self always doing QA.
 
 ## Some tips
 
@@ -179,19 +180,24 @@ If you find your self always doing QA.
 ### Synchronize work with the desinger
 
 
+### Weeks of coding can save hours of planning
+### Being busy versus being productive
 
-Consistent Flexible Framework
+## Collaboration
+### Understanding the challenge/problem
+### Agreeing on namings and meanings
+### Synchronize work with the desinger
+### Having one component library
+### Object oriented desing & development
+### How to report a bug
+### Reporting small bugs/issues
+### Have small stories. Not big chunks.
 
-
-You can easily plug in any grid system you like. Wether its Bootstrap or Foundation Zurb, or any other grid system of your choice.
-
-The project is based on SCSS only.
-
-[![Scss]]
-
-Styling tag elements: button, li/ul, 
-
-<a href="#">Explore Solid Ground Docs >></a> 
+## Desing
+### Maintaining Desing System
+### Approval of components
+### Keeping things simple
+### Creating a proper Kitchen Sink
 
 
 
