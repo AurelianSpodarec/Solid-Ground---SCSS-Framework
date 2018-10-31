@@ -91,16 +91,22 @@ Some more examples:
 
 ### What you probably know
 
+```
 <header></header>
-
+```
+```
 <footer></footer>
+```
 
+```
 <ul></ul>
 <ol></ol>
 <li></li>
+```
 
+```
 <article></article>
-
+```
 
 ### What you might not know
 ```
